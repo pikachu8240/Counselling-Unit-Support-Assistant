@@ -207,7 +207,7 @@ gives treatment advice.
 
 ## 1. Quick start
 ```bash
-git clone https://github.com/ahmedhallawa82/Counselling-Unit-Support-Assistant.git
+git clone https://github.com/pikachu8240/Counselling-Unit-Support-Assistant.git
 cd Counselling-Unit-Support-Assistant
 python -m venv venv && venv\\Scripts\\activate      # macOS/Linux: source venv/bin/activate
 pip install -r requirements.txt
