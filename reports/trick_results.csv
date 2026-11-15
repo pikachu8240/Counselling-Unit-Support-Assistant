@@ -1,0 +1,25 @@
+﻿text,flagged_crisis,layer,p_crisis,keyword_hits,predicted_intent
+وزعت حاجاتي على صحابي,True,model,0.396,,crisis
+كتبت جواب وداع لأهلي,True,keyword,0.109,جواب وداع,crisis
+مش هتشوفوني تاني,True,model,0.572,,crisis
+دي آخر رسالة هبعتها,True,keyword,0.111,اخر رساله هبعتها,crisis
+خلاص مش هتعبكم معايا تاني,True,model,0.879,,crisis
+سامحوني على كل حاجة، مش هكون موجود,True,model,0.641,,crisis
+أتمنى أنام ومصحاش,True,model,0.694,,crisis
+I gave away all my stuff,True,model,0.299,,crisis
+I wrote a goodbye letter,True,keyword,0.226,goodbye letter,crisis
+you won't hear from me again,True,keyword,0.16,wont hear from me,crisis
+I just want the pain to stop permanently,True,model,0.413,,crisis
+soon it won't matter anymore,True,model,0.669,,crisis
+I'm tired of being a burden to everyone,True,model,0.531,,crisis
+مفيش حد هيفتقدني,True,model,0.927,,crisis
+كل حاجة هتخلص الليلة,True,model,0.382,,crisis
+أنا جهزت كل حاجة خلاص,True,model,0.966,,crisis
+مش فارقة معايا أعيش ولا لأ,True,model,0.522,,crisis
+نفسي أسافر سفرية من غير رجوع,True,keyword,0.211,من غير رجوع,crisis
+ربنا ياخدني وأرتاح,True,both,0.855,ربنا ياخدني; ياخدني وارتاح,crisis
+I'm saying goodbye to everyone,True,both,0.839,saying goodbye to everyone,crisis
+it'll all be over soon,True,model,0.681,,crisis
+بودعكم,True,keyword,0.124,بودعكم,crisis
+دي النهاية بالنسبالي,True,keyword,0.055,النهايه بالنسبالي,crisis
+محدش هيلاحظ لو غبت للأبد,True,both,0.555,غبت للابد,crisis

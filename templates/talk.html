@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}كلّم إنسان{% endblock %}
+{% block content %}
+<section class="page">
+  <h1>كلّم إنسان دلوقتي</h1>
+  <p class="lead">لو حاسس إنك مش في أمان أو محتاج تتكلم مع حد حالًا، الأرقام دي بيرد عليها ناس حقيقيين.</p>
+  <ul class="contacts big">
+    {% for c in contacts %}
+    <li><a href="{{ c.href }}"><span>{{ c.label_ar }}</span><b dir="ltr">{{ c.value }}</b></a></li>
+    {% endfor %}
+  </ul>
+  <p>📍 مكان الوحدة: {{ UNIT.location_ar }} — {{ UNIT.hours_ar }}</p>
+  <p>✉️ <a href="mailto:{{ UNIT.email }}" dir="ltr">{{ UNIT.email }}</a></p>
+</section>
+{% endblock %}

@@ -1,0 +1,367 @@
+﻿text,label,source,approved_by
+عايز أحجز جلسة,booking,team_draft,PENDING_UNIT_REVIEW
+ممكن أحجز ميعاد مع الأخصائي,booking,team_draft,PENDING_UNIT_REVIEW
+إزاي أحجز جلسة إرشاد,booking,team_draft,PENDING_UNIT_REVIEW
+عايزة ميعاد مع حد من الوحدة,booking,team_draft,PENDING_UNIT_REVIEW
+I want to book a session,booking,team_draft,PENDING_UNIT_REVIEW
+Can I book an appointment with a counsellor?,booking,team_draft,PENDING_UNIT_REVIEW
+book a session please,booking,team_draft,PENDING_UNIT_REVIEW
+محتاج أقابل أخصائي نفسي في الكلية,booking,team_draft,PENDING_UNIT_REVIEW
+فيه مواعيد فاضية الأسبوع ده؟,booking,team_draft,PENDING_UNIT_REVIEW
+أقدر أحجز يوم الأحد؟,booking,team_draft,PENDING_UNIT_REVIEW
+عايز أحجز جلسة أونلاين,booking,team_draft,PENDING_UNIT_REVIEW
+ممكن جلسة بكرة الصبح,booking,team_draft,PENDING_UNIT_REVIEW
+عايز أحجز من غير ما حد يعرف,booking,team_draft,PENDING_UNIT_REVIEW
+عايز أقابل حد من الوحدة وش لوش,booking,team_draft,PENDING_UNIT_REVIEW
+حابب أحدد ميعاد,booking,team_draft,PENDING_UNIT_REVIEW
+ممكن تحجزلي,booking,team_draft,PENDING_UNIT_REVIEW
+أريد حجز موعد مع المرشد,booking,team_draft,PENDING_UNIT_REVIEW
+هل يمكنني حجز جلسة استشارية,booking,team_draft,PENDING_UNIT_REVIEW
+I'd like to schedule a meeting with the counselling unit,booking,team_draft,PENDING_UNIT_REVIEW
+Is there an available slot on Tuesday?,booking,team_draft,PENDING_UNIT_REVIEW
+عايز أغير ميعاد الجلسة بتاعتي,booking,team_draft,PENDING_UNIT_REVIEW
+عايز ألغي الحجز بتاعي,booking,team_draft,PENDING_UNIT_REVIEW
+احجزلي ميعاد بعد المحاضرات,booking,team_draft,PENDING_UNIT_REVIEW
+ممكن أقابل الدكتورة اللي في الوحدة,booking,team_draft,PENDING_UNIT_REVIEW
+عايزة أتكلم مع أخصائية بنت أحجز إزاي,booking,team_draft,PENDING_UNIT_REVIEW
+عاوز معاد,booking,team_draft,PENDING_UNIT_REVIEW
+حجز,booking,team_draft,PENDING_UNIT_REVIEW
+حجز جلسة,booking,team_draft,PENDING_UNIT_REVIEW
+book,booking,team_draft,PENDING_UNIT_REVIEW
+appointment,booking,team_draft,PENDING_UNIT_REVIEW
+عايز أروح الوحدة بس محتاج ميعاد,booking,team_draft,PENDING_UNIT_REVIEW
+ينفع آجي الوحدة امتى عشان أتكلم مع حد,booking,team_draft,PENDING_UNIT_REVIEW
+فين أحجز ميعاد الإرشاد,booking,team_draft,PENDING_UNIT_REVIEW
+عايز جلسة تليفونية,booking,team_draft,PENDING_UNIT_REVIEW
+ممكن جلسة على الواتساب,booking,team_draft,PENDING_UNIT_REVIEW
+"I need to talk to someone, can I book?",booking,team_draft,PENDING_UNIT_REVIEW
+how do I make an appointment,booking,team_draft,PENDING_UNIT_REVIEW
+عايز أحجز جلسة متابعة تانية,booking,team_draft,PENDING_UNIT_REVIEW
+أحجز جلسة إرشاد أكاديمي,booking,team_draft,PENDING_UNIT_REVIEW
+محتاج ميعاد ضروري الأسبوع ده,booking,team_draft,PENDING_UNIT_REVIEW
+Can I see a counsellor this week?,booking,team_draft,PENDING_UNIT_REVIEW
+عايز أحجز بس مش عايز أقول اسمي,booking,team_draft,PENDING_UNIT_REVIEW
+ينفع أحجز من غير اسم,booking,team_draft,PENDING_UNIT_REVIEW
+عايز أبدأ جلسات,booking,team_draft,PENDING_UNIT_REVIEW
+عاوز أتابع مع أخصائي بشكل منتظم,booking,team_draft,PENDING_UNIT_REVIEW
+please schedule me a session with a specialist,booking,team_draft,PENDING_UNIT_REVIEW
+ممكن ميعاد يوم الخميس الساعة 12,booking,team_draft,PENDING_UNIT_REVIEW
+أنا فاضي الاتنين بعد الضهر ينفع ميعاد,booking,team_draft,PENDING_UNIT_REVIEW
+عايز أحجز لأول مرة,booking,team_draft,PENDING_UNIT_REVIEW
+أول مرة أحجز أعمل إيه,booking,team_draft,PENDING_UNIT_REVIEW
+خليني أحجز,booking,team_draft,PENDING_UNIT_REVIEW
+محتاج أتكلم مع متخصص احجزلي,booking,team_draft,PENDING_UNIT_REVIEW
+حجز موعد إرشاد نفسي,booking,team_draft,PENDING_UNIT_REVIEW
+I want a counselling appointment,booking,team_draft,PENDING_UNIT_REVIEW
+register me for a session,booking,team_draft,PENDING_UNIT_REVIEW
+أقدر أحجز جلسة جماعية؟,booking,team_draft,PENDING_UNIT_REVIEW
+عايز أشترك في جلسة دعم جماعي,booking,team_draft,PENDING_UNIT_REVIEW
+reschedule my appointment,booking,team_draft,PENDING_UNIT_REVIEW
+cancel my booking please,booking,team_draft,PENDING_UNIT_REVIEW
+عايز ميعاد قريب لو سمحت,booking,team_draft,PENDING_UNIT_REVIEW
+الوحدة بتقدم إيه,services,team_draft,PENDING_UNIT_REVIEW
+إيه خدمات وحدة الإرشاد,services,team_draft,PENDING_UNIT_REVIEW
+الجلسات بفلوس ولا مجانية,services,team_draft,PENDING_UNIT_REVIEW
+هو الكلام اللي بقوله سري,services,team_draft,PENDING_UNIT_REVIEW
+الوحدة فين في الكلية,services,team_draft,PENDING_UNIT_REVIEW
+مواعيد الوحدة إيه,services,team_draft,PENDING_UNIT_REVIEW
+بتفتحوا الساعة كام,services,team_draft,PENDING_UNIT_REVIEW
+مين الأخصائيين اللي في الوحدة,services,team_draft,PENDING_UNIT_REVIEW
+What services do you offer?,services,team_draft,PENDING_UNIT_REVIEW
+Is counselling free?,services,team_draft,PENDING_UNIT_REVIEW
+Are sessions confidential?,services,team_draft,PENDING_UNIT_REVIEW
+Where is the counselling unit located?,services,team_draft,PENDING_UNIT_REVIEW
+What are your working hours?,services,team_draft,PENDING_UNIT_REVIEW
+هل الدكاترة هيعرفوا إني رحت الوحدة,services,team_draft,PENDING_UNIT_REVIEW
+أهلي هيعرفوا إني بروح الوحدة؟,services,team_draft,PENDING_UNIT_REVIEW
+الجلسة بتاخد قد إيه,services,team_draft,PENDING_UNIT_REVIEW
+فيه إرشاد أكاديمي؟,services,team_draft,PENDING_UNIT_REVIEW
+بتساعدوا في اختيار القسم؟,services,team_draft,PENDING_UNIT_REVIEW
+عندكم ورش عمل؟,services,team_draft,PENDING_UNIT_REVIEW
+فيه جلسات أونلاين ولا حضوري بس,services,team_draft,PENDING_UNIT_REVIEW
+الوحدة بتتعامل مع مشاكل إيه,services,team_draft,PENDING_UNIT_REVIEW
+هل يوجد إرشاد مهني,services,team_draft,PENDING_UNIT_REVIEW
+ما هي خدمات الوحدة,services,team_draft,PENDING_UNIT_REVIEW
+إيه الفرق بين الإرشاد النفسي والأكاديمي,services,team_draft,PENDING_UNIT_REVIEW
+هل لازم أكون طالب في الكلية,services,team_draft,PENDING_UNIT_REVIEW
+ينفع خريج يستفيد من الوحدة؟,services,team_draft,PENDING_UNIT_REVIEW
+بتدوا شهادات حضور للورش؟,services,team_draft,PENDING_UNIT_REVIEW
+هل الأخصائي دكتور نفسي؟,services,team_draft,PENDING_UNIT_REVIEW
+بتكتبوا أدوية؟,services,team_draft,PENDING_UNIT_REVIEW
+How many sessions can I take?,services,team_draft,PENDING_UNIT_REVIEW
+Do you keep records of sessions?,services,team_draft,PENDING_UNIT_REVIEW
+who works in the counselling unit,services,team_draft,PENDING_UNIT_REVIEW
+تليفون الوحدة كام,services,team_draft,PENDING_UNIT_REVIEW
+إيميل الوحدة إيه,services,team_draft,PENDING_UNIT_REVIEW
+إزاي أتواصل مع الوحدة,services,team_draft,PENDING_UNIT_REVIEW
+بتشتغلوا يوم السبت؟,services,team_draft,PENDING_UNIT_REVIEW
+الوحدة بتفتح في الإجازة؟,services,team_draft,PENDING_UNIT_REVIEW
+فيه أخصائية بنت أتكلم معاها؟,services,team_draft,PENDING_UNIT_REVIEW
+عندكم برامج للطلاب الوافدين,services,team_draft,PENDING_UNIT_REVIEW
+فيه دعم لذوي الهمم,services,team_draft,PENDING_UNIT_REVIEW
+بتساعدوا في مهارات المذاكرة؟,services,team_draft,PENDING_UNIT_REVIEW
+فيه كورسات إدارة وقت,services,team_draft,PENDING_UNIT_REVIEW
+بتعملوا ندوات توعية؟,services,team_draft,PENDING_UNIT_REVIEW
+إيه اللي بيحصل في أول جلسة,services,team_draft,PENDING_UNIT_REVIEW
+لازم أجيب كارنيه الكلية؟,services,team_draft,PENDING_UNIT_REVIEW
+محتاج تحويل من دكتور عشان آجي؟,services,team_draft,PENDING_UNIT_REVIEW
+Do I need a referral?,services,team_draft,PENDING_UNIT_REVIEW
+what happens in the first session,services,team_draft,PENDING_UNIT_REVIEW
+can my parents find out,services,team_draft,PENDING_UNIT_REVIEW
+is there career guidance,services,team_draft,PENDING_UNIT_REVIEW
+do you offer workshops,services,team_draft,PENDING_UNIT_REVIEW
+الخدمة دي لكل الفرق ولا لا,services,team_draft,PENDING_UNIT_REVIEW
+هل يمكن التواصل عبر البريد الإلكتروني,services,team_draft,PENDING_UNIT_REVIEW
+فين مكتب الإرشاد بالظبط,services,team_draft,PENDING_UNIT_REVIEW
+المبنى اللي فيه الوحدة فين,services,team_draft,PENDING_UNIT_REVIEW
+هل تقدمون إرشادًا للعلاقات الأسرية,services,team_draft,PENDING_UNIT_REVIEW
+هل البيانات بتتحفظ,services,team_draft,PENDING_UNIT_REVIEW
+بتسجلوا الشات؟,services,team_draft,PENDING_UNIT_REVIEW
+is this chat saved?,services,team_draft,PENDING_UNIT_REVIEW
+what does the counselling unit do,services,team_draft,PENDING_UNIT_REVIEW
+قلقان من الامتحانات,stress,team_draft,PENDING_UNIT_REVIEW
+متوتر جدًا عشان الميدتيرم,stress,team_draft,PENDING_UNIT_REVIEW
+مش عارف أذاكر ومضغوط,stress,team_draft,PENDING_UNIT_REVIEW
+مش بنام كويس من القلق بسبب المذاكرة,stress,team_draft,PENDING_UNIT_REVIEW
+I'm stressed about exams,stress,team_draft,PENDING_UNIT_REVIEW
+I feel anxious before presentations,stress,team_draft,PENDING_UNIT_REVIEW
+حاسس بضغط من كتر الشغل,stress,team_draft,PENDING_UNIT_REVIEW
+المشاريع كتير ومش ملحق,stress,team_draft,PENDING_UNIT_REVIEW
+خايف أسقط في المادة دي,stress,team_draft,PENDING_UNIT_REVIEW
+بتوتر لما أتكلم قدام الناس,stress,team_draft,PENDING_UNIT_REVIEW
+مش قادر أركز في المذاكرة,stress,team_draft,PENDING_UNIT_REVIEW
+مضغوط من أهلي عشان التقدير,stress,team_draft,PENDING_UNIT_REVIEW
+زعلان عشان اتخانقت مع صاحبي,stress,team_draft,PENDING_UNIT_REVIEW
+حاسس إني لوحدي في الكلية الجديدة,stress,team_draft,PENDING_UNIT_REVIEW
+مش عارف أنظم وقتي,stress,team_draft,PENDING_UNIT_REVIEW
+بتوتر من الامتحانات الشفوي,stress,team_draft,PENDING_UNIT_REVIEW
+قلقان من التنسيق والقسم,stress,team_draft,PENDING_UNIT_REVIEW
+I'm overwhelmed with assignments,stress,team_draft,PENDING_UNIT_REVIEW
+I can't focus and keep procrastinating,stress,team_draft,PENDING_UNIT_REVIEW
+I feel homesick,stress,team_draft,PENDING_UNIT_REVIEW
+حاسس بإحباط عشان درجاتي قليلة,stress,team_draft,PENDING_UNIT_REVIEW
+مدايق شوية من الضغط,stress,team_draft,PENDING_UNIT_REVIEW
+تعبت من المذاكرة ومحتاج أرتاح,stress,team_draft,PENDING_UNIT_REVIEW
+كل ما أفتح الكتاب أتوتر,stress,team_draft,PENDING_UNIT_REVIEW
+قلبي بيدق جامد قبل الامتحان,stress,team_draft,PENDING_UNIT_REVIEW
+مش واثق في نفسي,stress,team_draft,PENDING_UNIT_REVIEW
+حاسس إني أقل من زمايلي,stress,team_draft,PENDING_UNIT_REVIEW
+مش عارف أصاحب حد في الدفعة,stress,team_draft,PENDING_UNIT_REVIEW
+اتخانقت مع أهلي وأنا مدايق,stress,team_draft,PENDING_UNIT_REVIEW
+مشاكل مع شريك السكن,stress,team_draft,PENDING_UNIT_REVIEW
+مضغوط في الشغل جنب الكلية,stress,team_draft,PENDING_UNIT_REVIEW
+قلقان على مستقبلي بعد التخرج,stress,team_draft,PENDING_UNIT_REVIEW
+محتار ومش عارف أختار قسم,stress,team_draft,PENDING_UNIT_REVIEW
+I'm nervous about my graduation project,stress,team_draft,PENDING_UNIT_REVIEW
+I'm feeling down because I failed a quiz,stress,team_draft,PENDING_UNIT_REVIEW
+I have trouble sleeping before exams,stress,team_draft,PENDING_UNIT_REVIEW
+exam stress,stress,team_draft,PENDING_UNIT_REVIEW
+ضغط الامتحانات,stress,team_draft,PENDING_UNIT_REVIEW
+قلق الامتحان,stress,team_draft,PENDING_UNIT_REVIEW
+مش مركز خالص اليومين دول,stress,team_draft,PENDING_UNIT_REVIEW
+حاسس بزهق وملل,stress,team_draft,PENDING_UNIT_REVIEW
+متضايق من نفسي عشان بأجل كل حاجة,stress,team_draft,PENDING_UNIT_REVIEW
+الدكتور زعقلي قدام الدفعة وأنا مكسوف,stress,team_draft,PENDING_UNIT_REVIEW
+مش بعرف أقول لا للناس,stress,team_draft,PENDING_UNIT_REVIEW
+بتعصب بسرعة الفترة دي,stress,team_draft,PENDING_UNIT_REVIEW
+زعلان شوية عشان النتيجة,stress,team_draft,PENDING_UNIT_REVIEW
+عندي رهبة من المعمل,stress,team_draft,PENDING_UNIT_REVIEW
+حاسس إني تايه في أول سنة,stress,team_draft,PENDING_UNIT_REVIEW
+سبت خطيبتي ومش مركز,stress,team_draft,PENDING_UNIT_REVIEW
+I'm worried about money for the semester,stress,team_draft,PENDING_UNIT_REVIEW
+feeling lonely in the dorm,stress,team_draft,PENDING_UNIT_REVIEW
+I keep comparing myself to others,stress,team_draft,PENDING_UNIT_REVIEW
+مش عارف أوازن بين النشاط والمذاكرة,stress,team_draft,PENDING_UNIT_REVIEW
+بخاف أتكلم مع الدكاترة,stress,team_draft,PENDING_UNIT_REVIEW
+حاسس بضغط نفسي من التدريب الصيفي,stress,team_draft,PENDING_UNIT_REVIEW
+نفسي أرتاح شوية من التفكير,stress,team_draft,PENDING_UNIT_REVIEW
+بقلق من أي حاجة جديدة,stress,team_draft,PENDING_UNIT_REVIEW
+I get nervous before speaking in class,stress,team_draft,PENDING_UNIT_REVIEW
+دماغي مشغولة طول الوقت بالمذاكرة,stress,team_draft,PENDING_UNIT_REVIEW
+مخنوق من كتر التسليمات,stress,team_draft,PENDING_UNIT_REVIEW
+مش عايز أعيش,crisis,specialist_draft,PENDING_UNIT_REVIEW
+عايز أموت,crisis,specialist_draft,PENDING_UNIT_REVIEW
+بفكر أنتحر,crisis,specialist_draft,PENDING_UNIT_REVIEW
+بفكر أنهي حياتي,crisis,specialist_draft,PENDING_UNIT_REVIEW
+حاسس إن الدنيا من غيري هتبقى أحسن,crisis,specialist_draft,PENDING_UNIT_REVIEW
+عايز أأذي نفسي,crisis,specialist_draft,PENDING_UNIT_REVIEW
+بأذي نفسي لما أتضايق,crisis,specialist_draft,PENDING_UNIT_REVIEW
+مفيش فايدة من حياتي خلاص ومش عايز أكمل,crisis,specialist_draft,PENDING_UNIT_REVIEW
+تعبت من الحياة ومش عايز أكمل فيها,crisis,specialist_draft,PENDING_UNIT_REVIEW
+نفسي أنام وما أصحاش تاني,crisis,specialist_draft,PENDING_UNIT_REVIEW
+مش قادر أستحمل أكتر من كده وعايز أخلص من حياتي,crisis,specialist_draft,PENDING_UNIT_REVIEW
+I want to kill myself,crisis,specialist_draft,PENDING_UNIT_REVIEW
+I want to die,crisis,specialist_draft,PENDING_UNIT_REVIEW
+I don't want to live anymore,crisis,specialist_draft,PENDING_UNIT_REVIEW
+I've been thinking about ending my life,crisis,specialist_draft,PENDING_UNIT_REVIEW
+I hurt myself when I'm upset,crisis,specialist_draft,PENDING_UNIT_REVIEW
+I'm going to end it all,crisis,specialist_draft,PENDING_UNIT_REVIEW
+everyone would be better off without me,crisis,specialist_draft,PENDING_UNIT_REVIEW
+I can't go on living anymore,crisis,specialist_draft,PENDING_UNIT_REVIEW
+there's no reason to keep living,crisis,specialist_draft,PENDING_UNIT_REVIEW
+حد بيهددني وخايف على حياتي,crisis,specialist_draft,PENDING_UNIT_REVIEW
+حد بيأذيني في البيت,crisis,specialist_draft,PENDING_UNIT_REVIEW
+فيه حد اتعدى عليا,crisis,specialist_draft,PENDING_UNIT_REVIEW
+صاحبي بيقول إنه عايز ينتحر,crisis,specialist_draft,PENDING_UNIT_REVIEW
+زميلي بيفكر يأذي نفسه,crisis,specialist_draft,PENDING_UNIT_REVIEW
+خلاص قررت أمشي من الدنيا,crisis,specialist_draft,PENDING_UNIT_REVIEW
+مش شايف أي سبب أعيش عشانه,crisis,specialist_draft,PENDING_UNIT_REVIEW
+الموت أرحم من اللي أنا فيه,crisis,specialist_draft,PENDING_UNIT_REVIEW
+حياتي ملهاش لازمة ونفسي أموت,crisis,specialist_draft,PENDING_UNIT_REVIEW
+أنا عبء على الكل ونفسي أختفي للأبد,crisis,specialist_draft,PENDING_UNIT_REVIEW
+عايز أختفي من الدنيا دي خالص,crisis,specialist_draft,PENDING_UNIT_REVIEW
+حاسس إني هعمل في نفسي حاجة,crisis,specialist_draft,PENDING_UNIT_REVIEW
+خايف أعمل في نفسي حاجة,crisis,specialist_draft,PENDING_UNIT_REVIEW
+بجرح نفسي,crisis,specialist_draft,PENDING_UNIT_REVIEW
+I've been hurting myself again,crisis,specialist_draft,PENDING_UNIT_REVIEW
+I feel like I'm in danger right now,crisis,specialist_draft,PENDING_UNIT_REVIEW
+someone is hurting me at home,crisis,specialist_draft,PENDING_UNIT_REVIEW
+I'm not safe at home,crisis,specialist_draft,PENDING_UNIT_REVIEW
+أنا مش في أمان دلوقتي,crisis,specialist_draft,PENDING_UNIT_REVIEW
+محتاج مساعدة حالًا أنا في خطر,crisis,specialist_draft,PENDING_UNIT_REVIEW
+طوارئ,crisis,specialist_draft,PENDING_UNIT_REVIEW
+emergency,crisis,specialist_draft,PENDING_UNIT_REVIEW
+help me now please I'm in danger,crisis,specialist_draft,PENDING_UNIT_REVIEW
+الحقوني,crisis,specialist_draft,PENDING_UNIT_REVIEW
+I have a plan to end my life,crisis,specialist_draft,PENDING_UNIT_REVIEW
+خلاص مفيش حاجة تفرق وهنهيها,crisis,specialist_draft,PENDING_UNIT_REVIEW
+نفسي أموت وأرتاح,crisis,specialist_draft,PENDING_UNIT_REVIEW
+بدعي ربنا ياخدني,crisis,specialist_draft,PENDING_UNIT_REVIEW
+مليش مكان في الدنيا دي ومش عايز أعيش,crisis,specialist_draft,PENDING_UNIT_REVIEW
+I wish I was dead,crisis,specialist_draft,PENDING_UNIT_REVIEW
+life is pointless and I want out for good,crisis,specialist_draft,PENDING_UNIT_REVIEW
+I think about suicide a lot,crisis,specialist_draft,PENDING_UNIT_REVIEW
+ساعات بفكر في الانتحار,crisis,specialist_draft,PENDING_UNIT_REVIEW
+الأفكار اللي بتقولي أموت نفسي رجعت تاني,crisis,specialist_draft,PENDING_UNIT_REVIEW
+حد قريب مني مات وأنا مش عايز أعيش من بعده,crisis,specialist_draft,PENDING_UNIT_REVIEW
+I'm thinking of hurting someone else,crisis,specialist_draft,PENDING_UNIT_REVIEW
+أنا عايز أأذي حد,crisis,specialist_draft,PENDING_UNIT_REVIEW
+نفسي أنتحر,crisis,specialist_draft,PENDING_UNIT_REVIEW
+I'm scared I'll hurt myself tonight,crisis,specialist_draft,PENDING_UNIT_REVIEW
+تعبت من كل حاجة وعايز أنهي كل ده,crisis,specialist_draft,PENDING_UNIT_REVIEW
+أهلًا,other,team_draft,PENDING_UNIT_REVIEW
+السلام عليكم,other,team_draft,PENDING_UNIT_REVIEW
+صباح الخير,other,team_draft,PENDING_UNIT_REVIEW
+شكرًا,other,team_draft,PENDING_UNIT_REVIEW
+شكرًا ليك,other,team_draft,PENDING_UNIT_REVIEW
+مع السلامة,other,team_draft,PENDING_UNIT_REVIEW
+hi,other,team_draft,PENDING_UNIT_REVIEW
+hello,other,team_draft,PENDING_UNIT_REVIEW
+thanks,other,team_draft,PENDING_UNIT_REVIEW
+bye,other,team_draft,PENDING_UNIT_REVIEW
+إنت مين,other,team_draft,PENDING_UNIT_REVIEW
+إنت بوت ولا بني آدم,other,team_draft,PENDING_UNIT_REVIEW
+are you a human?,other,team_draft,PENDING_UNIT_REVIEW
+who are you,other,team_draft,PENDING_UNIT_REVIEW
+الجو عامل إيه النهارده,other,team_draft,PENDING_UNIT_REVIEW
+فين الكافتيريا,other,team_draft,PENDING_UNIT_REVIEW
+جدول المحاضرات نزل؟,other,team_draft,PENDING_UNIT_REVIEW
+امتى نتيجة الترم,other,team_draft,PENDING_UNIT_REVIEW
+عايز أعرف درجاتي,other,team_draft,PENDING_UNIT_REVIEW
+فين شئون الطلبة,other,team_draft,PENDING_UNIT_REVIEW
+إزاي أدفع المصاريف,other,team_draft,PENDING_UNIT_REVIEW
+what's the wifi password,other,team_draft,PENDING_UNIT_REVIEW
+when is the final exam schedule,other,team_draft,PENDING_UNIT_REVIEW
+اعملي واجب الكالكولاس,other,team_draft,PENDING_UNIT_REVIEW
+اكتبلي كود بايثون,other,team_draft,PENDING_UNIT_REVIEW
+مين كسب الماتش امبارح,other,team_draft,PENDING_UNIT_REVIEW
+أحسن مطعم جنب الكلية,other,team_draft,PENDING_UNIT_REVIEW
+عايز ملخص مادة الدوائر,other,team_draft,PENDING_UNIT_REVIEW
+تمام,other,team_draft,PENDING_UNIT_REVIEW
+اوك,other,team_draft,PENDING_UNIT_REVIEW
+ok,other,team_draft,PENDING_UNIT_REVIEW
+ماشي,other,team_draft,PENDING_UNIT_REVIEW
+هههههه,other,team_draft,PENDING_UNIT_REVIEW
+lol,other,team_draft,PENDING_UNIT_REVIEW
+test,other,team_draft,PENDING_UNIT_REVIEW
+تجربة,other,team_draft,PENDING_UNIT_REVIEW
+hello there how are you,other,team_draft,PENDING_UNIT_REVIEW
+عامل إيه,other,team_draft,PENDING_UNIT_REVIEW
+إزيك,other,team_draft,PENDING_UNIT_REVIEW
+كيف حالك,other,team_draft,PENDING_UNIT_REVIEW
+good morning,other,team_draft,PENDING_UNIT_REVIEW
+احكيلي نكتة,other,team_draft,PENDING_UNIT_REVIEW
+tell me a joke,other,team_draft,PENDING_UNIT_REVIEW
+what's the capital of France,other,team_draft,PENDING_UNIT_REVIEW
+بكام الدولار النهارده,other,team_draft,PENDING_UNIT_REVIEW
+فين المكتبة,other,team_draft,PENDING_UNIT_REVIEW
+امتى الكافيتيريا بتفتح,other,team_draft,PENDING_UNIT_REVIEW
+عايز أقدم على تدريب صيفي,other,team_draft,PENDING_UNIT_REVIEW
+الباص بتاع الكلية بيتحرك امتى,other,team_draft,PENDING_UNIT_REVIEW
+how do I reset my student email password,other,team_draft,PENDING_UNIT_REVIEW
+مين عميد الكلية,other,team_draft,PENDING_UNIT_REVIEW
+الكارنيه ضاع أعمل إيه,other,team_draft,PENDING_UNIT_REVIEW
+ممكن رقم شئون الطلبة,other,team_draft,PENDING_UNIT_REVIEW
+asdfgh,other,team_draft,PENDING_UNIT_REVIEW
+مساء الخير,other,team_draft,PENDING_UNIT_REVIEW
+thank you so much,other,team_draft,PENDING_UNIT_REVIEW
+good night,other,team_draft,PENDING_UNIT_REVIEW
+المذاكرة دي هتموتني من التعب,stress,team_rewording_v2,PENDING_UNIT_REVIEW
+هموت من القلق قبل النتيجة,stress,team_rewording_v2,PENDING_UNIT_REVIEW
+الميدتيرم ده قاتل وأنا متوتر,stress,team_rewording_v2,PENDING_UNIT_REVIEW
+I'm dying of stress before finals,stress,team_rewording_v2,PENDING_UNIT_REVIEW
+this semester is killing me slowly,stress,team_rewording_v2,PENDING_UNIT_REVIEW
+عايز أعيش يوم واحد من غير مذاكرة,stress,team_rewording_v2,PENDING_UNIT_REVIEW
+نفسي أخلص من الضغط ده وأرتاح,stress,team_rewording_v2,PENDING_UNIT_REVIEW
+تعبان ومحتاج أنام كويس,stress,team_rewording_v2,PENDING_UNIT_REVIEW
+مش عايز أسقط تاني السنة دي,stress,team_rewording_v2,PENDING_UNIT_REVIEW
+عايز أختفي من الكلية يومين أرتاح,stress,team_rewording_v2,PENDING_UNIT_REVIEW
+حاسس إني هنفجر من كتر التسليمات,stress,team_rewording_v2,PENDING_UNIT_REVIEW
+the deadlines are killing me,stress,team_rewording_v2,PENDING_UNIT_REVIEW
+I'm dead tired after the lab,stress,team_rewording_v2,PENDING_UNIT_REVIEW
+نفسي أهرب من الامتحانات,stress,team_rewording_v2,PENDING_UNIT_REVIEW
+مش لاقي نفسي في المذاكرة خالص,stress,team_rewording_v2,PENDING_UNIT_REVIEW
+my laptop battery is dying,other,team_rewording_v2,PENDING_UNIT_REVIEW
+هموت من الجوع فين الكافتيريا,other,team_rewording_v2,PENDING_UNIT_REVIEW
+الماتش امبارح كان يموت من الضحك,other,team_rewording_v2,PENDING_UNIT_REVIEW
+I'm dying to see the new schedule,other,team_rewording_v2,PENDING_UNIT_REVIEW
+I would kill for a day off lol,other,team_rewording_v2,PENDING_UNIT_REVIEW
+عايز أعيش في إسكندرية بعد التخرج,other,team_rewording_v2,PENDING_UNIT_REVIEW
+نفسي أخلص الكلية وأسافر,other,team_rewording_v2,PENDING_UNIT_REVIEW
+عايش على الإندومي الأيام دي هههه,other,team_rewording_v2,PENDING_UNIT_REVIEW
+the fire alarm drill is tomorrow,other,team_rewording_v2,PENDING_UNIT_REVIEW
+where is the nearest exit in this building,other,team_rewording_v2,PENDING_UNIT_REVIEW
+طفاية الحريق فين في المبنى,other,team_rewording_v2,PENDING_UNIT_REVIEW
+فيلم الرعب امبارح كان مموت,other,team_rewording_v2,PENDING_UNIT_REVIEW
+نفسي في بيتزا دلوقتي,other,team_rewording_v2,PENDING_UNIT_REVIEW
+عايز أنهي الكورس الأونلاين بسرعة,other,team_rewording_v2,PENDING_UNIT_REVIEW
+الموبايل فصل شحن,other,team_rewording_v2,PENDING_UNIT_REVIEW
+عايز أخلص الحجز بسرعة,booking,team_rewording_v2,PENDING_UNIT_REVIEW
+ممكن أحجز عشان مضغوط ومحتاج أتكلم مع حد,booking,team_rewording_v2,PENDING_UNIT_REVIEW
+عايز أنهي إجراءات الحجز,booking,team_rewording_v2,PENDING_UNIT_REVIEW
+I'd like to book because I've been feeling down,booking,team_rewording_v2,PENDING_UNIT_REVIEW
+ممكن أحجز ميعاد عشان قلقان من الامتحانات,booking,team_rewording_v2,PENDING_UNIT_REVIEW
+مبقتش شايف أي معنى إني أفضل عايش,crisis,specialist_draft,PENDING_UNIT_REVIEW
+عايز أنام للأبد,crisis,specialist_draft,PENDING_UNIT_REVIEW
+بفكر في الموت كتير اليومين دول وعايز أموت,crisis,specialist_draft,PENDING_UNIT_REVIEW
+نفسي أبعد عن الدنيا كلها للأبد,crisis,specialist_draft,PENDING_UNIT_REVIEW
+I keep thinking everyone would be happier if I were gone,crisis,specialist_draft,PENDING_UNIT_REVIEW
+I want to disappear and never come back,crisis,specialist_draft,PENDING_UNIT_REVIEW
+I don't care if I live or die anymore,crisis,specialist_draft,PENDING_UNIT_REVIEW
+خلاص مش هقدر أعيش كده تاني,crisis,specialist_draft,PENDING_UNIT_REVIEW
+حاسس إني عايز أنهي الوجع ده بأي طريقة,crisis,specialist_draft,PENDING_UNIT_REVIEW
+بقيت بفكر أأذي نفسي عشان أرتاح,crisis,specialist_draft,PENDING_UNIT_REVIEW
+I'm in danger please help,crisis,specialist_draft,PENDING_UNIT_REVIEW
+I'm scared for my safety,crisis,specialist_draft,PENDING_UNIT_REVIEW
+I wish I could die,crisis,specialist_draft,PENDING_UNIT_REVIEW
+I'd rather be dead,crisis,specialist_draft,PENDING_UNIT_REVIEW
+I want my life to be over,crisis,specialist_draft,PENDING_UNIT_REVIEW
+I'm thinking about hurting myself,crisis,specialist_draft,PENDING_UNIT_REVIEW
+help I'm not okay and I might hurt myself,crisis,specialist_draft,PENDING_UNIT_REVIEW
+I feel like dying,crisis,specialist_draft,PENDING_UNIT_REVIEW
+محتاج حد ينقذني,crisis,specialist_draft,PENDING_UNIT_REVIEW
+أنا خايف على نفسي من نفسي,crisis,specialist_draft,PENDING_UNIT_REVIEW
+نجدة,crisis,specialist_draft,PENDING_UNIT_REVIEW
+ساعدوني بسرعة,crisis,specialist_draft,PENDING_UNIT_REVIEW
+I'm stressed but I'll manage,stress,team_rewording_v3,PENDING_UNIT_REVIEW
+I feel a bit down about my grades,stress,team_rewording_v3,PENDING_UNIT_REVIEW
+I'm anxious about my presentation tomorrow,stress,team_rewording_v3,PENDING_UNIT_REVIEW
+I'm tired from studying all night,stress,team_rewording_v3,PENDING_UNIT_REVIEW
+I feel lost in my first year,stress,team_rewording_v3,PENDING_UNIT_REVIEW
+I'm worried I won't pass physics,stress,team_rewording_v3,PENDING_UNIT_REVIEW
+where is the student affairs office,other,team_rewording_v3,PENDING_UNIT_REVIEW
+I need the exam timetable,other,team_rewording_v3,PENDING_UNIT_REVIEW
+my phone is about to die lol,other,team_rewording_v3,PENDING_UNIT_REVIEW
+I'm dying to know the results haha,other,team_rewording_v3,PENDING_UNIT_REVIEW
+what time does the library close,other,team_rewording_v3,PENDING_UNIT_REVIEW
+can you help me with my homework,other,team_rewording_v3,PENDING_UNIT_REVIEW

@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}{{ a.title }}{% endblock %}
+{% block content %}
+<article class="page article">
+  <a class="back" href="{{ url_for('awareness') }}">→ كل المقالات</a>
+  <h1><span aria-hidden="true">{{ a.icon }}</span> {{ a.title }}</h1>
+  <p class="lead">{{ a.summary }}</p>
+  {% for p in a.body %}<p>{{ p }}</p>{% endfor %}
+  <div class="callout">
+    عايز تتكلم مع حد عن ده؟ <a class="btn primary small" href="{{ url_for('chat') }}">احجز جلسة</a>
+  </div>
+  <p class="draft">المحتوى: مسودة بانتظار اعتماد أخصائيي الوحدة.</p>
+</article>
+{% endblock %}

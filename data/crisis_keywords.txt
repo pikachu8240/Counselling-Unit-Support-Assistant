@@ -1,0 +1,155 @@
+# ============================================================
+# Crisis keyword list — Layer 1 of the two-layer crisis check
+# OWNER: the counselling unit's specialists. Teams must not remove lines.
+# One phrase per line. Spelling of hamza/diacritics does not matter
+# (text is normalised before matching). Lines starting with re: are regex.
+# Version 1 = initial list. Later sections were added after trick testing.
+# ============================================================
+
+# --- suicide / wish to die (Arabic) ---
+انتحر
+انتحار
+موت نفسي
+اقتل نفسي
+قتل نفسي
+انهي حياتي
+انهاء حياتي
+ينهي حياته
+تنهي حياتها
+اخلص من حياتي
+مش عايز اعيش
+مش عاوز اعيش
+مش عايزه اعيش
+مش عايز اكون عايش
+عايز اموت
+عاوز اموت
+عايزه اموت
+نفسي اموت
+ارغب في الموت
+لا اريد ان اعيش
+مبقاش ليا نفس اعيش
+الموت ارحم
+الموت هو الحل
+اختفي للابد
+امشي من الدنيا
+اسيب الدنيا
+ياخدني وارتاح
+
+# --- self-harm ---
+اذي نفسي
+يأذي نفسه
+تأذي نفسها
+هتأذي نفسها
+هيأذي نفسه
+اعمل في نفسي حاجه
+جرح نفسي
+اجرح نفسي
+
+# --- danger / abuse / emergency ---
+في خطر
+مش في امان
+بيضربني
+بيأذيني
+بيهددني
+اتعدي عليا
+الحقوني
+طوارئ
+اذي حد
+
+# --- English ---
+suicide
+suicidal
+kill myself
+killing myself
+end my life
+ending my life
+end it all
+want to die
+wanna die
+wants to die
+dont want to live
+dont want to be alive
+hurt myself
+hurting myself
+self harm
+cut myself
+not safe
+in danger
+emergency
+better off without me
+wish i was dead
+wish i were dead
+no reason to live
+reason to keep living
+hurting someone
+hurting me
+
+# ============================================================
+# Added after evaluation round 1 (see docs/trick_testing_log.md)
+# ============================================================
+# --- missed on crisis test set: conditional talk about own death ---
+re:\sلو (مت|موت|اموت)\s
+re:\sلو (i|I) (died|die)\s
+if i died
+if i die
+# --- missed trick tests: farewell / final-message wording ---
+جواب وداع
+رساله وداع
+goodbye letter
+goodbye note
+بودعكم
+بودع الكل
+saying goodbye to everyone
+اخر رساله هبعتها
+اخر مره اتكلم
+last message
+النهايه بالنسبالي
+this is the end for me
+غبت للابد
+امشي للابد
+gone forever
+
+# ============================================================
+# Version 2 coverage review (training crisis messages not covered by v1)
+# ============================================================
+# roots of انتحر/ينتحر/هنتحر and انتحار/الانتحار (also survives typos before the root)
+نتحار
+نتحر
+عمل في نفسي حاجه
+الدنيا من غيري
+مش عايز اكمل
+مش عاوز اكمل
+مش عايزه اكمل
+اصحاش
+سبب اعيش
+اختفي من الدنيا
+ربنا ياخدني
+افضل عايش
+مش هقدر اعيش
+انهي الوجع
+هنهيها
+انام للابد
+ابعد عن الدنيا
+مفيش فايده من حياتي
+cant go on
+want out for good
+if i were gone
+never come back
+live or die
+# --- v2 additions: urgent calls for help ---
+نجده
+ساعدوني بسرعه
+ينقذني
+خايف علي نفسي
+rather be dead
+my safety
+feel like dying
+feel like i am dying
+
+# ============================================================
+# Added after trick-testing round 2
+# ============================================================
+wont hear from me
+never hear from me
+من غير رجوع
+مش هرجع تاني

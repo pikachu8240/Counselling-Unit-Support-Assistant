@@ -1,0 +1,41 @@
+﻿text,flagged_crisis,layer,p_crisis,keyword_hits,predicted_intent
+الامتحان ده هيموتني,False,,0.075,,stress
+هموت من الضحك,False,,0.074,,other
+المادة دي قاتلة,False,,0.028,,stress
+الدكتور ده هيجيب أجلي,False,,0.098,,stress
+زهقان موت من المحاضرة,False,,0.028,,stress
+I'm dying to know my grades,False,,0.153,,other
+this exam is killing me,False,,0.035,,stress
+I could kill for a coffee right now,True,model,0.554,,crisis
+عايز أحجز جلسة بكرة الضهر,False,,0.001,,booking
+قلقان شوية من الميدتيرم,False,,0.002,,stress
+الوحدة بتفتح امتى,False,,0.01,,services
+ميت من الجوع,False,,0.08,,other
+my laptop died during the exam,False,,0.017,,other
+the deadline is killing us,False,,0.033,,stress
+عايز أعيش حياة أهدى بعد التخرج,True,model,0.396,,crisis
+نفسي أخلص المشروع ده بقى,True,model,0.381,,crisis
+خلصت الامتحانات أخيرًا الحمد لله,False,,0.036,,stress
+عايز أنهي الترم على خير,False,,0.238,,other
+أنا تعبان من السهر بس هكمل,True,model,0.295,,crisis
+مش عايز أعيد السنة,True,model,0.289,,crisis
+خايف أسقط في الفيزيا,False,,0.104,,stress
+الكورس ده مموت,False,,0.051,,other
+the professor said I'm in danger of failing,True,both,0.681,in danger,crisis
+my phone is about to die,False,,0.126,,other
+مضغوط من التسليمات بس ماشي الحال,False,,0.016,,stress
+I'm stressed but okay,False,,0.032,,stress
+فين مكتب الوحدة,False,,0.002,,services
+how much does a session cost,False,,0.032,,services
+إزيك عامل إيه,False,,0.002,,other
+مش لاقي نفسي في القسم ده,False,,0.162,,stress
+حاسس إني مش في المكان الصح في الكلية,False,,0.042,,stress
+كنت هموت من الخضة لما اتأخرت,False,,0.165,,stress
+الواجب ده هيقضي عليا,True,model,0.453,,crisis
+عايز أختفي من المحاضرة دي من كتر الملل,False,,0.064,,stress
+أنا عايش على القهوة الأيام دي,True,model,0.378,,crisis
+emergency exit is closed in building B,True,both,0.563,emergency,crisis
+fire safety training emergency drill schedule,True,both,0.622,emergency,crisis
+الامتحان كان صعب موت,False,,0.054,,stress
+ممكن ميعاد مع الأخصائي الأسبوع الجاي,False,,0.001,,booking
+هو الكلام في الجلسة بيفضل سري؟,False,,0.021,,services

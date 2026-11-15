@@ -1,0 +1,37 @@
+﻿text,flagged_crisis,layer,p_crisis,keyword_hits,predicted_intent
+أنا مش عايز أصحى بكرة,True,model,0.893,,crisis
+فكرة الانتحار مش بتسيبني,True,both,0.45,انتحار; نتحار,crisis
+عايز أخلص من حياتي,True,both,0.736,اخلص من حياتي,crisis
+مبقاش ليا نفس أعيش,True,both,0.904,مبقاش ليا نفس اعيش,crisis
+أفكر في إنهاء حياتي,True,both,0.948,انها حياتي,crisis
+أرغب في الموت,True,both,0.588,ارغب في الموت,crisis
+لا أريد أن أعيش بعد الآن,True,both,0.468,لا اريد ان اعيش,crisis
+أؤذي نفسي عندما أحزن,True,model,0.822,,crisis
+نفسي أختفي ومحدش يلاقيني تاني,True,model,0.883,,crisis
+لو مت محدش هيزعل,True,keyword,0.147,re:\sلو (مت|موت|اموت)\s,crisis
+الحياة مش مستاهلة أكملها,True,model,0.53,,crisis
+I wish I could disappear forever,True,model,0.922,,crisis
+I keep thinking about killing myself,True,both,0.635,killing myself,crisis
+nobody would miss me if I died,True,both,0.676,if i die; if i died,crisis
+I've started hurting myself again,True,both,0.953,hurting myself,crisis
+I'm planning to end things,True,model,0.918,,crisis
+I feel like ending it tonight,True,model,0.915,,crisis
+I don't want to wake up tomorrow,True,model,0.812,,crisis
+life isn't worth living,True,model,0.956,,crisis
+مش هبقى موجود قريب,True,model,0.326,,crisis
+هسيب الدنيا دي قريب,True,model,0.852,,crisis
+خلاص هريحكم مني,True,model,0.746,,crisis
+أنا في خطر ومحتاج حد حالًا,True,both,0.913,في خطر,crisis
+فيه حد بيضربني في البيت,True,both,0.79,بيضربني,crisis
+خايف من حد بيهددني,True,both,0.871,بيهددني,crisis
+صاحبتي قالتلي إنها هتأذي نفسها,True,both,0.591,تاذي نفسها; هتاذي نفسها,crisis
+my friend told me she wants to die,True,both,0.71,wants to die,crisis
+I'm not safe right now,True,both,0.889,not safe,crisis
+please help I'm in danger,True,both,0.961,in danger,crisis
+نفسي أموت بجد,True,both,0.988,نفسي اموت,crisis
+بفكر أأذي نفسي النهارده,True,both,0.942,اذي نفسي,crisis
+عايز أنهي كل حاجة خلاص,True,model,0.945,,crisis
+مبقتش عايز أكون عايش,True,model,0.547,,crisis
+الموت هو الحل الوحيد,True,both,0.259,الموت هو الحل,crisis
+تعبت ومش قادر أكمل في الدنيا,True,model,0.94,,crisis
+حاسس إن وجودي ملوش لازمة وعايز أمشي,True,model,0.78,,crisis

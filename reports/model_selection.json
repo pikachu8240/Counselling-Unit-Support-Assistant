@@ -1,0 +1,25 @@
+{
+  "selected": "logistic_regression",
+  "threshold": 0.2485,
+  "candidates": {
+    "naive_bayes": {
+      "cv_accuracy": 0.7349726775956285,
+      "cv_macro_f1": 0.7325141568548311,
+      "cv_crisis_recall_argmax": 0.8170731707317073,
+      "threshold": 0.2369,
+      "cv_crisis_recall_two_layer": 1.0,
+      "cv_false_alarm_rate_two_layer": 0.12323943661971831
+    },
+    "logistic_regression": {
+      "cv_accuracy": 0.8005464480874317,
+      "cv_macro_f1": 0.8033946279708992,
+      "cv_crisis_recall_argmax": 0.8414634146341463,
+      "threshold": 0.2485,
+      "cv_crisis_recall_two_layer": 1.0,
+      "cv_false_alarm_rate_two_layer": 0.13732394366197184
+    }
+  },
+  "safety_margin": 0.8,
+  "model_alone_recall_target": 0.9,
+  "max_threshold": 0.35
+}

@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+{% block title %}تقييم النموذج{% endblock %}
+{% block content %}
+<section class="page wide" dir="ltr" style="text-align:left">
+  <div class="staff-head">
+    <h1>Model evaluation</h1>
+    <a class="btn ghost small" href="{{ url_for('staff_dashboard') }}">← Dashboard</a>
+  </div>
+  {% if not m %}
+  <p>No evaluation yet. Run <code>python train.py</code> then <code>python evaluate.py</code>.</p>
+  {% else %}
+  <div class="gate {{ 'pass' if m.crisis_test.PASS else 'fail' }}">
+    <b>Crisis recall on the crisis test set: {{ '%.0f'|format(m.crisis_test.recall*100) }}%</b>
+    ({{ m.crisis_test.n }} messages, never used for training) —
+    <b>{{ 'PASS' if m.crisis_test.PASS else 'FAIL' }}</b>
+  </div>
+
+  <div class="kpis">
+    <div class="kpi"><small>Selected model</small><b style="font-size:1.1rem">{{ m.model }}</b><span>crisis threshold {{ m.threshold }}</span></div>
+    <div class="kpi"><small>Hold-out accuracy</small><b>{{ '%.1f'|format(m.holdout.accuracy_two_layer*100) }}%</b><span>two-layer system, n={{ m.holdout.n_test }}</span></div>
+    <div class="kpi"><small>Macro F1</small><b>{{ m.holdout.macro_f1 }}</b><span>5 classes</span></div>
+    <div class="kpi alert"><small>False-alarm rate</small><b>{{ '%.1f'|format(m.false_alarms.holdout_non_crisis_rate*100) }}%</b><span>hold-out non-crisis · {{ '%.1f'|format(m.false_alarms.false_alarm_set_rate*100) }}% on hard set</span></div>
+    <div class="kpi"><small>Trick tests caught</small><b>{{ '%.0f'|format(m.trick_tests.recall*100) }}%</b><span>{{ m.trick_tests.n }} indirect messages</span></div>
+  </div>
+
+  <div class="two">
+    <div class="box">
+      <h2>Confusion matrix (hold-out 25%)</h2>
+      <img src="{{ url_for('staff_confusion') }}" alt="Confusion matrix">
+    </div>
+    <div class="box">
+      <h2>Per-class metrics</h2>
+      <table>
+        <thead><tr><th>class</th><th>precision</th><th>recall</th><th>F1</th><th>n</th></tr></thead>
+        <tbody>{% for c, r in m.holdout.per_class.items() %}
+          <tr><td>{{ c }}</td><td>{{ r.precision }}</td><td>{{ r.recall }}</td><td>{{ r['f1-score'] }}</td><td>{{ r.support|int }}</td></tr>
+        {% endfor %}</tbody>
+      </table>
+      <h2>Crisis test – caught by layer</h2>
+      <table><tbody>
+        <tr><td>keyword layer alone</td><td>{{ '%.0f'|format(m.crisis_test.keyword_layer_alone_recall*100) }}%</td></tr>
+        <tr><td>model layer alone</td><td>{{ '%.0f'|format(m.crisis_test.model_layer_alone_recall*100) }}%</td></tr>
+        <tr><td><b>two layers (OR)</b></td><td><b>{{ '%.0f'|format(m.crisis_test.recall*100) }}%</b></td></tr>
+      </tbody></table>
+    </div>
+  </div>
+
+  <h2>Model comparison (5-fold cross-validation)</h2>
+  <table>
+    <thead><tr><th>model</th><th>accuracy</th><th>macro F1</th><th>threshold</th><th>crisis recall (2 layers)</th><th>false alarms</th></tr></thead>
+    <tbody>{% for k, r in sel.candidates.items() %}
+      <tr {% if k == sel.selected %}class="sel"{% endif %}><td>{{ k }}{% if k == sel.selected %} ✓{% endif %}</td>
+        <td>{{ '%.3f'|format(r.cv_accuracy) }}</td><td>{{ '%.3f'|format(r.cv_macro_f1) }}</td><td>{{ r.threshold }}</td>
+        <td>{{ '%.0f'|format(r.cv_crisis_recall_two_layer*100) }}%</td><td>{{ '%.1f'|format(r.cv_false_alarm_rate_two_layer*100) }}%</td></tr>
+    {% endfor %}</tbody>
+  </table>
+
+  <h2>Robustness (perturbed messages)</h2>
+  <table>
+    <thead><tr><th>perturbation</th><th>crisis recall</th><th>hold-out accuracy</th></tr></thead>
+    <tbody>{% for k, r in m.robustness.items() %}
+      <tr><td>{{ k }}</td><td>{{ '%.0f'|format(r.crisis_recall*100) }}%</td><td>{{ '%.3f'|format(r.holdout_accuracy) }}</td></tr>
+    {% endfor %}</tbody>
+  </table>
+
+  <h2>"Trick" tests (indirect wording)</h2>
+  <table>
+    <thead><tr><th>message</th><th>caught</th><th>layer</th><th>P(crisis)</th></tr></thead>
+    <tbody>{% for t in trick %}
+      <tr class="{{ '' if t.flagged_crisis else 'miss' }}"><td dir="auto">{{ t.text }}</td><td>{{ '✅' if t.flagged_crisis else '❌' }}</td><td>{{ t.layer }}</td><td>{{ t.p_crisis }}</td></tr>
+    {% endfor %}</tbody>
+  </table>
+
+  <h2>Messages wrongly flagged as crisis (hard false-alarm set)</h2>
+  <ul>{% for t in m.false_alarms.false_alarm_set_flagged %}<li dir="auto">{{ t }}</li>{% endfor %}</ul>
+  {% endif %}
+</section>
+{% endblock %}

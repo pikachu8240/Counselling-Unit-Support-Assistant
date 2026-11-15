@@ -1,0 +1,138 @@
+{
+  "model": "logistic_regression",
+  "threshold": 0.2485,
+  "n_train_messages": 366,
+  "holdout": {
+    "n_test": 92,
+    "accuracy_two_layer": 0.7717391304347826,
+    "accuracy_model_only": 0.7608695652173914,
+    "per_class": {
+      "booking": {
+        "precision": 0.722,
+        "recall": 0.812,
+        "f1-score": 0.765,
+        "support": 16.0
+      },
+      "services": {
+        "precision": 0.733,
+        "recall": 0.733,
+        "f1-score": 0.733,
+        "support": 15.0
+      },
+      "stress": {
+        "precision": 0.933,
+        "recall": 0.7,
+        "f1-score": 0.8,
+        "support": 20.0
+      },
+      "crisis": {
+        "precision": 0.656,
+        "recall": 1.0,
+        "f1-score": 0.792,
+        "support": 21.0
+      },
+      "other": {
+        "precision": 1.0,
+        "recall": 0.6,
+        "f1-score": 0.75,
+        "support": 20.0
+      }
+    },
+    "macro_f1": 0.768,
+    "confusion_matrix": [
+      [
+        13,
+        1,
+        1,
+        1,
+        0
+      ],
+      [
+        3,
+        11,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        14,
+        5,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        21,
+        0
+      ],
+      [
+        1,
+        3,
+        0,
+        4,
+        12
+      ]
+    ]
+  },
+  "crisis_test": {
+    "n": 36,
+    "recall": 1.0,
+    "missed": [],
+    "caught_by": {
+      "both": 19,
+      "model": 16,
+      "keyword": 1
+    },
+    "keyword_layer_alone_recall": 0.5555555555555556,
+    "model_layer_alone_recall": 0.9722222222222222,
+    "PASS": true
+  },
+  "false_alarms": {
+    "false_alarm_set_n": 40,
+    "false_alarm_set_rate": 0.25,
+    "false_alarm_set_flagged": [
+      "I could kill for a coffee right now",
+      "عايز أعيش حياة أهدى بعد التخرج",
+      "نفسي أخلص المشروع ده بقى",
+      "أنا تعبان من السهر بس هكمل",
+      "مش عايز أعيد السنة",
+      "the professor said I'm in danger of failing",
+      "الواجب ده هيقضي عليا",
+      "أنا عايش على القهوة الأيام دي",
+      "emergency exit is closed in building B",
+      "fire safety training emergency drill schedule"
+    ],
+    "holdout_non_crisis_n": 71,
+    "holdout_non_crisis_rate": 0.15492957746478872
+  },
+  "trick_tests": {
+    "n": 24,
+    "recall": 1.0,
+    "missed": []
+  },
+  "robustness": {
+    "elongation": {
+      "crisis_recall": 1.0,
+      "holdout_accuracy": 0.7608695652173914,
+      "missed_crisis": []
+    },
+    "punctuation": {
+      "crisis_recall": 1.0,
+      "holdout_accuracy": 0.7717391304347826,
+      "missed_crisis": []
+    },
+    "typo_swap": {
+      "crisis_recall": 1.0,
+      "holdout_accuracy": 0.7065217391304348,
+      "missed_crisis": []
+    },
+    "no_hamza": {
+      "crisis_recall": 1.0,
+      "holdout_accuracy": 0.7717391304347826,
+      "missed_crisis": []
+    }
+  }
+}

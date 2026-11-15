@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}دخول الموظفين{% endblock %}
+{% block content %}
+<section class="page narrow">
+  <h1>دخول موظفي الوحدة</h1>
+  <form method="post" class="form">
+    <input type="hidden" name="csrf" value="{{ csrf_token() }}">
+    <label class="field"><span>اسم المستخدم</span><input name="username" required autocomplete="username" dir="ltr"></label>
+    <label class="field"><span>كلمة المرور</span><input name="password" type="password" required autocomplete="current-password" dir="ltr"></label>
+    {% if error %}<div class="error" role="alert">{{ error }}</div>{% endif %}
+    <button class="btn primary" type="submit">دخول</button>
+  </form>
+  <p class="muted">الصفحة دي بتعرض الحجوزات والإحصائيات المجمّعة فقط — مفيش أسماء ولا نصوص محادثات.</p>
+</section>
+{% endblock %}

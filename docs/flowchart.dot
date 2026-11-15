@@ -1,0 +1,33 @@
+digraph G {
+  rankdir=TB; bgcolor="white"; node [fontname="Helvetica", fontsize=11, style="rounded,filled", shape=box, fillcolor="#eef3fb", color="#1e5aa8"];
+  edge [fontname="Helvetica", fontsize=9, color="#475569"];
+  start [label="Student opens the assistant\n(red emergency banner on every page,\n\"I am a computer program\")", fillcolor="#e0f2fe"];
+  input [label="Clicks a menu button\nor types a message"];
+  btn_em [label="\"Emergency\" button?", shape=diamond, fillcolor="#ffffff"];
+  kw [label="Layer 1: specialists' keyword list\n(normalised Arabic/English, typo-tolerant)"];
+  model [label="Layer 2: intent model\nP(crisis) >= threshold ?"];
+  crisis_q [label="Keyword hit OR\nmodel above threshold?", shape=diamond, fillcolor="#ffffff"];
+  crisis [label="CRISIS PATH\nStop normal conversation\nShow 16328, unit phone/WhatsApp, 123\n\"Talk to a person\" / urgent booking", fillcolor="#fde2e2", color="#c81e1e"];
+  safe [label="Student: \"I'm safe now\"\n-> back to chat", fillcolor="#ffffff"];
+  stats [label="Stats sheet: +1 for (date, intent)\n(message text discarded)", fillcolor="#f1f5f9"];
+  intent [label="Best of the other 4 intents", shape=diamond, fillcolor="#ffffff"];
+  services [label="Approved text:\nservices, hours, location,\nconfidentiality"];
+  stress [label="Approved awareness text\n+ links + offer to book"];
+  other [label="\"I'm only the unit's assistant\"\n+ show menu"];
+  booking [label="Booking form in the chat:\nday, time, contact method, contact\n(no name)"];
+  save [label="Bookings sheet: ID, time, day,\ntime, method, contact, status=new", fillcolor="#f1f5f9"];
+  staff [label="Staff page (login):\nbookings + anonymous counts only", fillcolor="#dcfce7"];
+  start -> input -> btn_em;
+  btn_em -> crisis [label="yes"];
+  btn_em -> kw [label="no / typed text"];
+  kw -> model -> crisis_q;
+  crisis_q -> crisis [label="yes", color="#c81e1e"];
+  crisis -> safe [style=dashed];
+  crisis_q -> intent [label="no"];
+  intent -> services [label="services"]; intent -> stress [label="stress"];
+  intent -> booking [label="booking"]; intent -> other [label="other / unsure"];
+  stress -> booking [style=dashed, label="Book"];
+  crisis -> booking [style=dashed, label="urgent"];
+  booking -> save -> staff;
+  crisis_q -> stats [style=dotted, arrowhead=none];
+}

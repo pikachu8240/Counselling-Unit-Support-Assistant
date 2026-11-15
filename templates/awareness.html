@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}توعية – مساعد وحدة الإرشاد{% endblock %}
+{% block content %}
+<section class="page">
+  <h1>مقالات توعية</h1>
+  <p class="lead">مكتوبة من أخصائيين وحدة الإرشاد. معلومات عامة للتوعية، مش بديل عن جلسة مع أخصائي.</p>
+  <div class="cards">
+    {% for a in articles %}
+    <a class="card" href="{{ url_for('awareness_article', slug=a.slug) }}">
+      <span class="card-icon" aria-hidden="true">{{ a.icon }}</span>
+      <h2>{{ a.title }}</h2>
+      <p>{{ a.summary }}</p>
+      <span class="more">اقرأ ←</span>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+{% endblock %}

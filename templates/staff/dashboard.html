@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+{% block title %}لوحة الموظفين{% endblock %}
+{% block content %}
+<section class="page wide">
+  <div class="staff-head">
+    <h1>لوحة موظفي الوحدة</h1>
+    <div>
+      <a class="btn ghost small" href="{{ url_for('staff_evaluation') }}">تقييم النموذج</a>
+      <a class="btn ghost small" href="{{ url_for('staff_logout') }}">خروج</a>
+    </div>
+  </div>
+
+  <div class="kpis">
+    <div class="kpi"><small>حجوزات جديدة</small><b>{{ kpi.bookings_new }}</b><span>من {{ kpi.bookings_total }} إجمالي</span></div>
+    <div class="kpi"><small>رسائل تم تصنيفها</small><b>{{ kpi.messages }}</b><span>أعداد فقط</span></div>
+    <div class="kpi alert"><small>تنبيهات أزمة</small><b>{{ kpi.crisis }}</b><span>ظهرت فيها أرقام الطوارئ</span></div>
+    <div class="kpi"><small>زيارات الصفحات</small><b>{{ kpi.visits }}</b><span>صفحة + تاريخ</span></div>
+    <div class="kpi"><small>ردود مفيدة</small><b>{{ kpi.helpful }}</b><span>من تقييمات الطلبة</span></div>
+  </div>
+
+  <h2 id="bookings">الحجوزات</h2>
+  {% if bookings %}
+  <div class="table-wrap">
+  <table>
+    <thead><tr><th>رقم الحجز</th><th>تاريخ الطلب</th><th>اليوم المفضل</th><th>الوقت</th><th>طريقة التواصل</th><th>وسيلة التواصل</th><th>الحالة</th></tr></thead>
+    <tbody>
+    {% for b in bookings %}
+    <tr class="st-{{ b.status }}">
+      <td dir="ltr"><code>{{ b.booking_id }}</code></td>
+      <td dir="ltr">{{ b.created_at }}</td>
+      <td dir="ltr">{{ b.preferred_day }}</td>
+      <td dir="ltr">{{ b.preferred_time }}</td>
+      <td>{{ methods.get(b.contact_method, ('',''))[0] }}</td>
+      <td dir="ltr">{{ b.contact }}</td>
+      <td>
+        <form method="post" action="{{ url_for('staff_booking_status', bid=b.booking_id) }}" class="inline">
+          <input type="hidden" name="csrf" value="{{ csrf_token() }}">
+          <select name="status" onchange="this.form.submit()" aria-label="حالة الحجز {{ b.booking_id }}">
+            {% for s in statuses %}<option value="{{ s }}" {% if s == b.status %}selected{% endif %}>{{ s }}</option>{% endfor %}
+          </select>
+          <noscript><button>حفظ</button></noscript>
+        </form>
+      </td>
+    </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+  </div>
+  {% else %}<p class="muted">لا توجد حجوزات بعد.</p>{% endif %}
+
+  <div class="two">
+    <div class="box">
+      <h2>أنواع الرسائل (آخر 14 يوم)</h2>
+      <img src="{{ url_for('staff_chart', name='intents') }}" alt="رسم بياني لعدد الرسائل اليومي حسب النوع">
+      <table class="small-table">
+        <thead><tr><th>النوع</th><th>الإجمالي</th></tr></thead>
+        <tbody>{% for k, v in totals.items() %}<tr><td>{{ k }}</td><td>{{ v }}</td></tr>{% endfor %}</tbody>
+      </table>
+    </div>
+    <div class="box">
+      <h2>الزيارات حسب الصفحة</h2>
+      <img src="{{ url_for('staff_chart', name='visits') }}" alt="رسم بياني لعدد الزيارات لكل صفحة">
+    </div>
+  </div>
+  <p class="muted">كل البيانات من ملف <code>bookings.xlsx</code> على جهاز الوحدة. لا توجد أسماء ولا نصوص محادثات.</p>
+</section>
+{% endblock %}
