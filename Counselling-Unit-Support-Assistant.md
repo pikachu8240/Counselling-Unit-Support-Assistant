@@ -1,6 +1,6 @@
 # Counselling Unit Support Assistant (AI Lab, Project 2)
 
-> **Last updated: 2026-11-15 21:15 (Cairo time)**. This file is regenerated automatically on every change pushed to the repository.
+> **Last updated: 2026-11-15 21:33 (Cairo time)**. This file is regenerated automatically on every change pushed to the repository.
 
 A 24/7 "front door" for the faculty's counselling and guidance unit. It explains the unit's services, books a session
 **without asking for a name**, shows awareness articles, and at **any sign of crisis** stops the conversation and shows
@@ -183,11 +183,19 @@ Robustness (crisis recall under perturbation): elongation 100% · punctuation 10
 | `templates/staff/evaluation.html` | 4.2 KB | 2026-11-15 21:15 |
 | `templates/staff/login.html` | 923 B | 2026-11-15 21:15 |
 | `tests/test_app.py` | 4.1 KB | 2026-11-15 21:15 |
-| `tools/build_project_md.py` | 13.9 KB | 2026-11-15 21:15 |
+| `tools/build_project_md.py` | 13.9 KB | 2026-11-15 21:33 |
 | **Total** | **2.4 MB** | |
 
 ## 10. Change log (every change with date and time)
-Total changes recorded: **1** (newest first, times in Cairo, UTC+2)
+Total changes recorded: **3** (newest first, times in Cairo, UTC+2)
+
+### 2026-11-15 · 21:33 | Point repository links to pikachu8240/Counselling-Unit-Support-Assistant
+`7f7bdac` by Ahmed Hallawa
+
+- modified `tools/build_project_md.py`
+
+### 2026-11-15 · 21:15 | docs: add project MD file (auto-generated)
+`f2b5cf8` by Ahmed Hallawa
 
 ### 2026-11-15 · 21:15 | Initial project: Counselling Unit Support Assistant (AI Lab Project 2)
 `849a187` by Ahmed Hallawa
