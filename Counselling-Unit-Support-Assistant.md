@@ -1,6 +1,6 @@
 # Counselling Unit Support Assistant (AI Lab, Project 2)
 
-> **Last updated: 2026-11-15 21:33 (Cairo time)**. This file is regenerated automatically on every change pushed to the repository.
+> **Last updated: 2026-11-15 21:34 (Cairo time)**. This file is regenerated automatically on every change pushed to the repository.
 
 A 24/7 "front door" for the faculty's counselling and guidance unit. It explains the unit's services, books a session
 **without asking for a name**, shows awareness articles, and at **any sign of crisis** stops the conversation and shows
@@ -71,7 +71,7 @@ Brief check: ≥ 250 messages → **✅** · ≥ 40 per class → **✅** · cri
 Sources: `specialist_draft` 82, `team_draft` 237, `team_rewording_v2` 35, `team_rewording_v3` 12 · rows still pending specialist approval: **366**
 
 ## 5. Latest results
-_From `reports/metrics.json` (evaluation generated 2026-11-15 21:14 Cairo)._
+_From `reports/metrics.json` (evaluation generated 2026-11-15 21:34 Cairo)._
 
 | Metric | Value |
 |---|---|
@@ -134,7 +134,7 @@ Robustness (crisis recall under perturbation): elongation 100% · punctuation 10
 | `config.py` | 2.6 KB | 2026-11-15 21:15 |
 | `evaluate.py` | 8.8 KB | 2026-11-15 21:15 |
 | `requirements.txt` | 107 B | 2026-11-15 21:15 |
-| `sync.bat` | 571 B | 2026-11-15 21:15 |
+| `sync.bat` | 587 B | 2026-11-15 21:15 |
 | `sync.sh` | 496 B | 2026-11-15 21:15 |
 | `train.py` | 5.5 KB | 2026-11-15 21:15 |
 | `core/__init__.py` | 0 B | 2026-11-15 21:15 |
@@ -162,7 +162,7 @@ Robustness (crisis recall under perturbation): elongation 100% · punctuation 10
 | `docs/screenshots/6_eval.png` | 490.4 KB | 2026-11-15 21:15 |
 | `docs/screenshots/7_mobile.png` | 79.5 KB | 2026-11-15 21:15 |
 | `models/intent_model.joblib` | 545.8 KB | 2026-11-15 21:15 |
-| `reports/confusion_matrix.png` | 42.4 KB | 2026-11-15 21:15 |
+| `reports/confusion_matrix.png` | 46.0 KB | 2026-11-15 21:15 |
 | `reports/crisis_test_results.csv` | 2.6 KB | 2026-11-15 21:15 |
 | `reports/false_alarm_results.csv` | 2.5 KB | 2026-11-15 21:15 |
 | `reports/metrics.json` | 2.9 KB | 2026-11-15 21:15 |
@@ -187,7 +187,10 @@ Robustness (crisis recall under perturbation): elongation 100% · punctuation 10
 | **Total** | **2.4 MB** | |
 
 ## 10. Change log (every change with date and time)
-Total changes recorded: **3** (newest first, times in Cairo, UTC+2)
+Total changes recorded: **4** (newest first, times in Cairo, UTC+2)
+
+### 2026-11-15 · 21:33 | docs: update project MD before first push
+`6da5150` by Ahmed Hallawa
 
 ### 2026-11-15 · 21:33 | Point repository links to pikachu8240/Counselling-Unit-Support-Assistant
 `7f7bdac` by Ahmed Hallawa
