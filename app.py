@@ -367,6 +367,22 @@ def staff_evaluation():
                            sel=load("model_selection.json"), trick=trick)
 
 
+@app.route("/staff/try", methods=["GET", "POST"])
+@staff_required
+def staff_try():
+    """AI test bench: type a message, see both crisis layers and all class
+    probabilities. Nothing typed here is stored or counted in Stats."""
+    result, text = None, ""
+    if request.method == "POST":
+        check_csrf()
+        text = (request.form.get("message") or "").strip()[:1000]
+        if text:
+            result = assistant.explain(text)
+    examples = ["قلقان جدا من الميدتيرم", "عايز احجز جلسة يوم الاحد", "الوحدة بتفتح امتى",
+                "الامتحان ده هيموتني", "وزعت حاجاتي على صحابي", "I want to book a session"]
+    return render_template("staff/try.html", result=result, text=text, examples=examples)
+
+
 @app.route("/staff/report/confusion_matrix.png")
 @staff_required
 def staff_confusion():

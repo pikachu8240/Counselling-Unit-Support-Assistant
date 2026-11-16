@@ -13,7 +13,8 @@ pip install -r requirements.txt
 python train.py                  # compares Naive Bayes vs Logistic Regression, picks the crisis threshold
 python evaluate.py               # metrics, confusion matrix, crisis-recall PASS/FAIL gate
 python app.py                    # http://127.0.0.1:5000
-python -m pytest -q              # 9 automated tests
+python -m pytest -q              # 10 automated tests
+python try_model.py              # try the AI on your own messages
 ```
 Staff page: `/staff/login`, user `staff`, password `change-me-now`. **Change it before any real use:**
 ```bash
@@ -36,6 +37,8 @@ Replace the placeholder unit contacts in `config.py` (`UNIT = {...}`).
 | "Trick" testing, failures recorded and fixed | `data/trick_tests.csv`, `docs/trick_testing_log.md` |
 | `bookings.xlsx`: Bookings / Stats / Visits; no names, no chat text | `core/excel_db.py` (single writer `log_to_excel()`, schema-enforced) |
 | One-page privacy statement | `docs/privacy_statement.md`, page `/privacy` |
+| Test the AI (both layers, all probabilities) | `/staff/try` page, `try_model.py`, `docs/ai_explained.md` |
+| Design references | `docs/design_inspiration.md` |
 | Conversation flowchart | `docs/conversation_flowchart.png` (source `flowchart.dot`) |
 | Data card | `docs/data_card.md` |
 | Presentation (crisis path + normal booking) | `docs/presentation_demo_script.md` |

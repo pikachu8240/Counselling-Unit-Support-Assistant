@@ -52,6 +52,25 @@ class Assistant:
         self.classes = list(self.pipeline.classes_)
         self.crisis_idx = self.classes.index(CRISIS)
 
+    def explain(self, text: str) -> dict:
+        """Full breakdown for testing: cleaned text, keyword hits, every class
+        probability and the final decision. Used by try_model.py and /staff/try."""
+        from .text_clean import detect_language, normalize
+        proba = self.pipeline.predict_proba([text])[0]
+        result = self.analyze(text)
+        return {
+            "normalized": normalize(text),
+            "language": detect_language(text),
+            "keyword_hits": self.keywords.hits(text),
+            "probabilities": {c: round(float(p), 3) for c, p in
+                              sorted(zip(self.classes, proba), key=lambda x: -x[1])},
+            "p_crisis": round(result["p_crisis"], 3),
+            "threshold": self.threshold,
+            "model_says_crisis": result["p_crisis"] >= self.threshold,
+            "keyword_says_crisis": bool(self.keywords.hits(text)),
+            "decision": result,
+        }
+
     def analyze(self, text: str) -> dict:
         kw = self.keywords.hits(text)
         proba = self.pipeline.predict_proba([text])[0]

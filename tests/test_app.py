@@ -99,3 +99,15 @@ def test_staff_requires_login(client):
     assert client.get("/staff").status_code == 200
     assert client.get("/staff/evaluation").status_code == 200
     assert client.get("/staff/chart/intents.png").status_code == 200
+
+
+def test_ai_test_bench(client):
+    client.post("/staff/login", data={"username": "staff", "password": "change-me-now", "csrf": client.token})
+    client.get("/staff/try")                     # login resets the session, so get a fresh form token
+    with client.session_transaction() as s:
+        client.token = s["csrf"]
+    r = client.post("/staff/try", data={"message": "وزعت حاجاتي على صحابي", "csrf": client.token})
+    html = r.get_data(as_text=True)
+    assert r.status_code == 200 and "القرار: أزمة" in html
+    r = client.post("/staff/try", data={"message": "الوحدة بتفتح امتى", "csrf": client.token})
+    assert "القرار: services" in r.get_data(as_text=True)

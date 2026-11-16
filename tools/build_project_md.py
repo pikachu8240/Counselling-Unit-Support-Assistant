@@ -215,6 +215,7 @@ python train.py        # NB vs LR comparison + crisis threshold
 python evaluate.py     # metrics + PASS/FAIL gate
 python app.py          # http://127.0.0.1:5000
 python -m pytest -q    # automated tests
+python try_model.py    # try the AI on your own messages (or use /staff/try in the app)
 ```
 Staff page: `/staff/login`. Default user `staff` / password `change-me-now` (change via `STAFF_PASSWORD_HASH`, see README).
 Replace the placeholder unit contacts in `config.py`.
@@ -268,6 +269,8 @@ STATIC_MID = """## 6. Privacy
 | [`docs/privacy_statement.md`](docs/privacy_statement.md) | One-page privacy statement |
 | [`docs/trick_testing_log.md`](docs/trick_testing_log.md) | Every failure found and how it was fixed |
 | [`docs/presentation_demo_script.md`](docs/presentation_demo_script.md) | 10-minute demo plan |
+| [`docs/ai_explained.md`](docs/ai_explained.md) | Where the AI lives, what it does with a message, how to test it |
+| [`docs/design_inspiration.md`](docs/design_inspiration.md) | Researched design references and mental-health UX principles |
 | [`docs/conversation_flowchart.png`](docs/conversation_flowchart.png) | Conversation flowchart (source `flowchart.dot`) |
 | [`docs/screenshots/`](docs/screenshots) | Screenshots of every page |
 """

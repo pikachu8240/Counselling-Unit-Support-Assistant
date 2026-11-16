@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+{% block title %}جرّب الذكاء الاصطناعي{% endblock %}
+{% block content %}
+<section class="page wide">
+  <div class="staff-head">
+    <h1>جرّب الذكاء الاصطناعي</h1>
+    <div>
+      <a class="btn ghost small" href="{{ url_for('staff_evaluation') }}">تقييم النموذج</a>
+      <a class="btn ghost small" href="{{ url_for('staff_dashboard') }}">لوحة الموظفين</a>
+    </div>
+  </div>
+  <p class="muted">اكتب أي رسالة وشوف إزاي الطبقتين بيقرروا. اللي بتكتبه هنا مش بيتحفظ ومش بيتحسب في الإحصائيات.</p>
+
+  <form method="post" class="form">
+    <input type="hidden" name="csrf" value="{{ csrf_token() }}">
+    <label class="field"><span>الرسالة</span>
+      <input name="message" value="{{ text }}" dir="auto" required autofocus placeholder="مثال: الامتحان ده هيموتني">
+    </label>
+    <div class="row" style="flex-wrap:wrap">
+      <button class="btn primary" type="submit">حلّل الرسالة</button>
+      {% for ex in examples %}
+      <button class="btn ghost small" type="submit" name="message" value="{{ ex }}" formnovalidate>{{ ex }}</button>
+      {% endfor %}
+    </div>
+  </form>
+
+  {% if result %}
+  {% set d = result.decision %}
+  <div class="gate {{ 'fail' if d.is_crisis else 'pass' }}" style="margin-top:1.2rem">
+    {% if d.is_crisis %}
+      <b>القرار: أزمة</b>. اكتشفتها طبقة: <b>{{ {'keyword':'الكلمات','model':'الموديل','both':'الطبقتين'}[d.layer] }}</b>، وهيظهر للطالب 16328 وأرقام الوحدة.
+    {% else %}
+      <b>القرار: {{ d.intent }}</b> (ثقة {{ '%.0f'|format(d.confidence*100) }}%){% if d.low_confidence %}. الثقة قليلة، فهيظهر للطالب القائمة{% endif %}
+    {% endif %}
+  </div>
+
+  <div class="two">
+    <div class="box">
+      <h2>1. تنضيف النص</h2>
+      <p dir="auto"><code>{{ result.normalized }}</code></p>
+      <p class="muted">اللغة: {{ result.language }}. الهمزات والتشكيل والحروف المكررة والعلامات بتتوحّد قبل أي حاجة.</p>
+      <h2>2. الطبقة الأولى: الكلمات</h2>
+      {% if result.keyword_hits %}
+        <p style="color:var(--danger)"><b>لقت كلمات أزمة:</b></p>
+        <ul>{% for k in result.keyword_hits %}<li dir="auto"><code>{{ k }}</code></li>{% endfor %}</ul>
+      {% else %}<p>مفيش كلمات من قائمة الأخصائيين.</p>{% endif %}
+    </div>
+    <div class="box">
+      <h2>3. الطبقة التانية: الموديل</h2>
+      <p>P(crisis) = <b>{{ result.p_crisis }}</b>، والحد (threshold) = {{ result.threshold }}، يعني
+        {% if result.model_says_crisis %}<b style="color:var(--danger)">أزمة</b>{% else %}أقل من الحد{% endif %}</p>
+      <table>
+        <thead><tr><th>Class</th><th>الاحتمال</th><th></th></tr></thead>
+        <tbody>
+        {% for c, p in result.probabilities.items() %}
+          <tr><td>{{ c }}</td><td>{{ '%.3f'|format(p) }}</td>
+            <td style="width:55%"><div style="height:10px;border-radius:5px;width:{{ (p*100)|round(1) }}%;background:{{ 'var(--danger)' if c=='crisis' else 'var(--brand)' }}"></div></td></tr>
+        {% endfor %}
+        </tbody>
+      </table>
+      <p class="muted">القاعدة: أزمة لو الكلمات لقت حاجة <b>أو</b> P(crisis) ≥ الحد. غير كده، بياخد أعلى class من الأربعة التانيين.</p>
+    </div>
+  </div>
+  {% endif %}
+</section>
+{% endblock %}
