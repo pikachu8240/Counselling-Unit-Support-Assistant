@@ -1,6 +1,6 @@
 # Counselling Unit Support Assistant (AI Lab, Project 2)
 
-> **Last updated: 2026-11-16 13:07 (Cairo time)**. This file is regenerated automatically on every change pushed to the repository.
+> **Last updated: 2026-11-16 13:08 (Cairo time)**. This file is regenerated automatically on every change pushed to the repository.
 
 A 24/7 "front door" for the faculty's counselling and guidance unit. It explains the unit's services, books a session
 **without asking for a name**, shows awareness articles, and at **any sign of crisis** stops the conversation and shows
@@ -72,7 +72,7 @@ Brief check: ≥ 250 messages → **✅** · ≥ 40 per class → **✅** · cri
 Sources: `specialist_draft` 82, `team_draft` 237, `team_rewording_v2` 35, `team_rewording_v3` 12 · rows still pending specialist approval: **366**
 
 ## 5. Latest results
-_From `reports/metrics.json` (evaluation generated 2026-11-15 21:33 Cairo)._
+_From `reports/metrics.json` (evaluation generated 2026-11-16 13:08 Cairo)._
 
 | Metric | Value |
 |---|---|
@@ -132,30 +132,30 @@ Robustness (crisis recall under perturbation): elongation 100% · punctuation 10
 |---|---|---|
 | `.gitattributes` | 37 B | 2026-11-15 21:15 |
 | `.gitignore` | 50 B | 2026-11-15 21:15 |
-| `README.md` | 5.6 KB | 2026-11-15 21:15 |
-| `app.py` | 15.2 KB | 2026-11-15 21:15 |
+| `README.md` | 5.6 KB | 2026-11-16 13:07 |
+| `app.py` | 15.2 KB | 2026-11-16 13:07 |
 | `config.py` | 2.6 KB | 2026-11-15 21:15 |
 | `evaluate.py` | 8.8 KB | 2026-11-15 21:15 |
 | `requirements.txt` | 107 B | 2026-11-15 21:15 |
 | `sync.bat` | 587 B | 2026-11-15 21:15 |
 | `sync.sh` | 496 B | 2026-11-15 21:15 |
 | `train.py` | 5.5 KB | 2026-11-15 21:15 |
-| `try_model.py` | 2.4 KB | not committed yet |
+| `try_model.py` | 2.4 KB | 2026-11-16 13:07 |
 | `core/__init__.py` | 0 B | 2026-11-15 21:15 |
 | `core/content.py` | 10.5 KB | 2026-11-15 21:15 |
 | `core/crisis.py` | 3.1 KB | 2026-11-15 21:15 |
 | `core/excel_db.py` | 3.9 KB | 2026-11-15 21:15 |
-| `core/model.py` | 4.0 KB | 2026-11-15 21:15 |
+| `core/model.py` | 4.0 KB | 2026-11-16 13:07 |
 | `core/text_clean.py` | 1.4 KB | 2026-11-15 21:15 |
 | `data/crisis_keywords.txt` | 3.7 KB | 2026-11-15 21:15 |
 | `data/crisis_test.csv` | 1.6 KB | 2026-11-15 21:15 |
 | `data/false_alarm_test.csv` | 2.1 KB | 2026-11-15 21:15 |
 | `data/messages.csv` | 28.5 KB | 2026-11-15 21:15 |
 | `data/trick_tests.csv` | 1.1 KB | 2026-11-15 21:15 |
-| `docs/ai_explained.md` | 4.4 KB | not committed yet |
+| `docs/ai_explained.md` | 4.4 KB | 2026-11-16 13:07 |
 | `docs/conversation_flowchart.png` | 241.8 KB | 2026-11-15 21:15 |
 | `docs/data_card.md` | 2.2 KB | 2026-11-15 21:15 |
-| `docs/design_inspiration.md` | 3.3 KB | not committed yet |
+| `docs/design_inspiration.md` | 3.3 KB | 2026-11-16 13:07 |
 | `docs/flowchart.dot` | 2.2 KB | 2026-11-15 21:15 |
 | `docs/presentation_demo_script.md` | 2.0 KB | 2026-11-15 21:15 |
 | `docs/privacy_statement.md` | 2.3 KB | 2026-11-15 21:15 |
@@ -167,7 +167,7 @@ Robustness (crisis recall under perturbation): elongation 100% · punctuation 10
 | `docs/screenshots/5_staff.png` | 159.7 KB | 2026-11-15 21:15 |
 | `docs/screenshots/6_eval.png` | 490.4 KB | 2026-11-15 21:15 |
 | `docs/screenshots/7_mobile.png` | 79.5 KB | 2026-11-15 21:15 |
-| `docs/screenshots/8_ai_test_bench.png` | 175.5 KB | not committed yet |
+| `docs/screenshots/8_ai_test_bench.png` | 175.5 KB | 2026-11-16 13:07 |
 | `models/intent_model.joblib` | 545.8 KB | 2026-11-15 21:34 |
 | `reports/confusion_matrix.png` | 46.0 KB | 2026-11-15 21:34 |
 | `reports/crisis_test_results.csv` | 2.6 KB | 2026-11-15 21:15 |
@@ -186,16 +186,31 @@ Robustness (crisis recall under perturbation): elongation 100% · punctuation 10
 | `templates/message.html` | 218 B | 2026-11-15 21:15 |
 | `templates/privacy.html` | 2.8 KB | 2026-11-15 21:15 |
 | `templates/talk.html` | 711 B | 2026-11-15 21:15 |
-| `templates/staff/dashboard.html` | 3.5 KB | 2026-11-15 21:15 |
+| `templates/staff/dashboard.html` | 3.5 KB | 2026-11-16 13:07 |
 | `templates/staff/evaluation.html` | 4.2 KB | 2026-11-15 21:15 |
 | `templates/staff/login.html` | 923 B | 2026-11-15 21:15 |
-| `templates/staff/try.html` | 3.6 KB | not committed yet |
-| `tests/test_app.py` | 4.8 KB | 2026-11-15 21:15 |
-| `tools/build_project_md.py` | 14.2 KB | 2026-11-15 21:33 |
+| `templates/staff/try.html` | 3.6 KB | 2026-11-16 13:07 |
+| `tests/test_app.py` | 4.8 KB | 2026-11-16 13:07 |
+| `tools/build_project_md.py` | 14.2 KB | 2026-11-16 13:07 |
 | **Total** | **2.6 MB** | |
 
 ## 10. Change log (every change with date and time)
-Total changes recorded: **5** (newest first, times in Cairo, UTC+2)
+Total changes recorded: **6** (newest first, times in Cairo, UTC+2)
+
+### 2026-11-16 · 13:07 | Add AI test bench (/staff/try + try_model.py), AI and design docs
+`74fc2e5` by Ahmed Hallawa
+
+- modified `README.md`
+- modified `app.py`
+- modified `core/model.py`
+- added `docs/ai_explained.md`
+- added `docs/design_inspiration.md`
+- added `docs/screenshots/8_ai_test_bench.png`
+- modified `templates/staff/dashboard.html`
+- added `templates/staff/try.html`
+- modified `tests/test_app.py`
+- modified `tools/build_project_md.py`
+- added `try_model.py`
 
 ### 2026-11-15 · 21:34 | docs: auto-update project MD 2026-11-15 21:34 [skip ci]
 `168dd0c` by project-bot
